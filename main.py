@@ -12,6 +12,7 @@ def bg_color():
     pygame.display.update()
 
 
+# this is main
 def main():
     # game loop, terminates when the game ends
     run = True
