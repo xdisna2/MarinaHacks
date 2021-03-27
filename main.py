@@ -15,6 +15,7 @@ def main():
 
         display.bg_color()
         display.grid()
+        display.hud()
 
         pygame.display.update()
 
