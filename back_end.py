@@ -13,6 +13,10 @@ def playerInput(turn_count):
         try:
             x, y = int(input("Enter row:")), int(input("Enter col:"))
 
+            if mat1[x, y] is not None:
+                print("\n", mat1, "\n")
+                raise IndexError()
+
             if turn_count % 2 == 0:
                 mat1[x, y] = "O"
             else:
@@ -23,7 +27,7 @@ def playerInput(turn_count):
         except ValueError:
             print("You need to enter an integer. Please try again")
         except IndexError:
-            print("Invalid index. You need to enter between 0-2")
+            print("Invalid index. You need to enter between 0-2 and make sure the space is not already occupied")
 
 
 def main():

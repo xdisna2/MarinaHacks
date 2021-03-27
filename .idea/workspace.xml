@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63429bfb-7044-417b-b31c-c0f82183a2fc" name="Default Changelist" comment="rebased backend branch">
-      <change afterPath="$PROJECT_DIR$/back_end.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
