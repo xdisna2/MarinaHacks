@@ -1,6 +1,6 @@
 import pygame
 import display
-
+pygame.init()
 
 def main():
     mouse = pygame.mouse.get_pos()
@@ -16,8 +16,11 @@ def main():
 
         display.bg_color()
         display.grid()
+        display.hud()
         display.display_x()
         display.display_o()
+
+
         pygame.display.update()
 
     pygame.quit()
