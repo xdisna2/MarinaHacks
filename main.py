@@ -1,15 +1,5 @@
 import pygame
-
-WIDTH, HEIGHT = 900, 500
-# creates the window
-WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("TIC-TAC-TOE")
-SILVER = (192, 192, 192)
-
-
-def bg_color():
-    WIN.fill(SILVER)
-    pygame.display.update()
+import display
 
 
 def main():
@@ -23,11 +13,10 @@ def main():
             if event.type == pygame.QUIT:
                 run = False
 
-        bg_color()
+        display.bg_color()
 
     pygame.quit()
 
 
 if __name__ == "__main__":
-    print("Hello World")
     main()
