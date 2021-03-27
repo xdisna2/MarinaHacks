@@ -14,6 +14,9 @@ def main():
                 run = False
 
         display.bg_color()
+        display.grid()
+
+        pygame.display.update()
 
     pygame.quit()
 
