@@ -7,8 +7,8 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 
 pygame.display.set_caption("TIC-TAC-TOE")
 
-x_image = pygame.image.load('x_image.png')
-o_image = pygame.image.load('o_image.png')
+x_image = pygame.image.load('x_image_transparent.png')
+o_image = pygame.image.load('o_image_transparent.png')
 
 # color parameters
 BLACK = (0, 0, 0)
@@ -49,10 +49,25 @@ def grid():
     pygame.draw.rect(WIN, BLACK, [0, 550, WIDTH, HEIGHT / 64])
 
 
-# leave on the side for a while
-def buttons():
-    WHITE = (255, 255, 255)
-    pygame.draw.rect(WIN, WHITE, [WIDTH/2, HEIGHT/2, 140, 40])
+def clear_rectangle():
+    # (1, 1)
+    pygame.draw.rect(WIN, SILVER, [0, 87, 300, 227])
+    # (2, 1)
+    pygame.draw.rect(WIN, SILVER, [0, 327, 300, 222])
+    # (3, 1)
+    pygame.draw.rect(WIN, SILVER, [0, 562, 300, 222])
+    # (1, 2)
+    pygame.draw.rect(WIN, SILVER, [314, 87, 285, 227])
+    # (2, 2)
+    pygame.draw.rect(WIN, SILVER, [314, 327, 285, 222])
+    # (3, 2)
+    pygame.draw.rect(WIN, SILVER, [314, 562, 285, 227])
+    # (1, 3)
+    pygame.draw.rect(WIN, SILVER, [614, 87, 285, 227])
+    # (2, 3)
+    pygame.draw.rect(WIN, SILVER, [614, 327, 285, 222])
+    # (3, 3)
+    pygame.draw.rect(WIN, SILVER, [614, 562, 285, 227])
 
 
 def hud():
