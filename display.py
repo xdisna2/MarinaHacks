@@ -1,4 +1,6 @@
 import pygame
+pygame.init()
+
 WIDTH, HEIGHT = 900, 775
 # creates the window
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -6,7 +8,7 @@ pygame.display.set_caption("TIC-TAC-TOE")
 SILVER = (192, 192, 192)
 x_image = pygame.image.load('x_image.png')
 o_image = pygame.image.load('o_image.png')
-
+BLACK = (0, 0, 0)
 
 def bg_color():
     WIN.fill(SILVER)
@@ -22,7 +24,7 @@ def display_o():
 
 # method that creates the grid
 def grid():
-    BLACK = (0, 0, 0)
+
     # [x-pos, y-pos, width, height]
     # creates the top horizontal bar
     pygame.draw.rect(WIN, BLACK, [300, 75, WIDTH / 64, HEIGHT])
@@ -40,3 +42,10 @@ def grid():
 def buttons():
     WHITE = (255, 255, 255)
     pygame.draw.rect(WIN, WHITE, [WIDTH/2, HEIGHT/2, 140, 40])
+
+def hud():
+    font = pygame.font.Font('freesansbold.ttf', 48)
+    x_text = font.render("X's WINS: ", True, BLACK)
+    y_text = font.render("O's WINS: ", True, BLACK)
+    WIN.blit(x_text, (10, 15))
+    WIN.blit(y_text, (600, 15))
