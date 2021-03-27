@@ -10,12 +10,15 @@ def main():
     while run:
         # gets a list of all the events and loops through them
         for event in pygame.event.get():
+            mouse = pygame.mouse.get_pos()
+            # print(mouse)
             # if the user exits the window, terminate the game
             if event.type == pygame.QUIT:
                 run = False
 
         display.bg_color()
         display.grid()
+        display.clear_rectangle()
         display.display_x()
         display.display_o()
         pygame.display.update()
