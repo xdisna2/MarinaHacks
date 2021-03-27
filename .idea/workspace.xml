@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="63429bfb-7044-417b-b31c-c0f82183a2fc" name="Default Changelist" comment="test commit" />
-=======
-    <list default="true" id="63429bfb-7044-417b-b31c-c0f82183a2fc" name="Default Changelist" comment="rebased backend branch">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="63429bfb-7044-417b-b31c-c0f82183a2fc" name="Default Changelist" comment="committed">
+      <change beforePath="$PROJECT_DIR$/back_end.py" beforeDir="false" afterPath="$PROJECT_DIR$/back_end.py" afterDir="false" />
     </list>
->>>>>>> 675c3de... user input
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,11 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-<<<<<<< HEAD
-        <entry key="$PROJECT_DIR$" value="angelo's_branch" />
-=======
         <entry key="$PROJECT_DIR$" value="Backend" />
->>>>>>> 675c3de... user input
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,8 +38,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-<<<<<<< HEAD
-=======
   <component name="RunManager">
     <configuration name="back_end" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MarinaHacks" />
@@ -77,7 +67,6 @@
       </list>
     </recent_temporary>
   </component>
->>>>>>> 675c3de... user input
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,11 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616865349432</updated>
-<<<<<<< HEAD
-      <workItem from="1616865351323" duration="2901000" />
-=======
       <workItem from="1616865351323" duration="5657000" />
->>>>>>> 675c3de... user input
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1616867684587</created>
@@ -99,9 +84,6 @@
       <option name="project" value="LOCAL" />
       <updated>1616867684587</updated>
     </task>
-<<<<<<< HEAD
-    <option name="localTasksCounter" value="2" />
-=======
     <task id="LOCAL-00002" summary="rebased backend branch">
       <created>1616868287860</created>
       <option name="number" value="00002" />
@@ -109,8 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616868287860</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
->>>>>>> 675c3de... user input
+    <task id="LOCAL-00003" summary="collision added">
+      <created>1616871635055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616871635055</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,17 +114,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
-<<<<<<< HEAD
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
-=======
     <MESSAGE value="rebased backend branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="rebased backend branch" />
+    <MESSAGE value="collision added" />
+    <option name="LAST_COMMIT_MESSAGE" value="collision added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MarinaHacks$back_end.coverage" NAME="back_end Coverage Results" MODIFIED="1616871047783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
->>>>>>> 675c3de... user input
+    <SUITE FILE_PATH="coverage/MarinaHacks$back_end.coverage" NAME="back_end Coverage Results" MODIFIED="1616875450763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
