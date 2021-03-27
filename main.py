@@ -2,6 +2,7 @@ import pygame
 import display
 
 
+# this is main
 def main():
     # game loop, terminates when the game ends
     run = True
