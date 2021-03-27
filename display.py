@@ -25,12 +25,12 @@ def bg_color():
     WIN.fill(SILVER)
 
 
-def display_x():
-    WIN.blit(x_image, (75, 130))
+def display_x(x, y):
+    WIN.blit(x_image, (x, y))
 
 
-def display_o():
-    WIN.blit(o_image, (380, 130))
+def display_o(x, y):
+    WIN.blit(o_image, (x, y))
 
 
 # method that creates the grid
@@ -79,9 +79,11 @@ def hud():
 
 def display_turn(player_state):
     if player_state == 1:
+        pygame.draw.rect(WIN, SILVER, [350, 15, 200, 50])
         text = font.render("X's Turn", True, BLACK)
         WIN.blit(text, (350, 15))
 
     else:
+        pygame.draw.rect(WIN, SILVER, [350, 15, 200, 50])
         text = font.render("O's Turn", True, BLACK)
         WIN.blit(text, (350, 15))
