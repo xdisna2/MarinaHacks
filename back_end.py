@@ -18,9 +18,9 @@ def playerInput(turn_count):
                 raise IndexError()
 
             if turn_count % 2 == 0:
-                mat1[x, y] = "O"
+                mat1[x, y] = 1
             else:
-                mat1[x, y] = "X"
+                mat1[x, y] = 0
 
             print("\n", mat1, "\n")
             loc = True
