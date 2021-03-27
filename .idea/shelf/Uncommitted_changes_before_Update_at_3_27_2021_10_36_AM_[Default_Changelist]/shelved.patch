@@ -1,0 +1,18 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import pygame\r\n\r\nWIDTH, HEIGHT = 900, 500\r\n# creates the window\r\nWIN = pygame.display.set_mode((WIDTH, HEIGHT))\r\npygame.display.set_caption(\"TIC-TAC-TOE\")\r\nSILVER = (192, 192, 192)\r\n\r\n\r\ndef bg_color():\r\n    WIN.fill(SILVER)\r\n    pygame.display.update()\r\n\r\n\r\ndef main():\r\n    # game loop, terminates when the game ends\r\n    run = True\r\n\r\n    while run:\r\n        # gets a list of all the events and loops through them\r\n        for event in pygame.event.get():\r\n            # if the user exits the window, terminate the game\r\n            if event.type == pygame.QUIT:\r\n                run = False\r\n\r\n        bg_color()\r\n\r\n    pygame.quit()\r\n\r\n\r\nif __name__ == \"__main__\":\r\n    main()\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	(revision f9413aa25c4b0683b45e92e188bf196c3d23aef6)
++++ b/main.py	(date 1616865871898)
+@@ -12,6 +12,7 @@
+     pygame.display.update()
+ 
+ 
++# this is main
+ def main():
+     # game loop, terminates when the game ends
+     run = True
