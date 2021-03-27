@@ -3,6 +3,7 @@ import display
 
 
 def main():
+    mouse = pygame.mouse.get_pos()
     # game loop, terminates when the game ends
     run = True
 
@@ -14,6 +15,10 @@ def main():
                 run = False
 
         display.bg_color()
+        display.grid()
+        display.display_x()
+        display.display_o()
+        pygame.display.update()
 
     pygame.quit()
 
