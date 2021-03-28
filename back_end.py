@@ -11,7 +11,7 @@ mat1 = np.array(matrix)
 def playerInput(turn_count, x, y):
     try:
         if mat1[x, y] is not None:
-            print("\n", mat1, "\n")
+            # print("\n", mat1, "\n")
             raise IndexError()
 
         # This determines whether its player 1 or 2 turn
@@ -22,13 +22,15 @@ def playerInput(turn_count, x, y):
             mat1[x, y] = 1
 
         # Immediately print the updated matrix with the player's choice
-        print("\n", mat1, "\n")
+        # print("\n", mat1, "\n")
 
     # If there is an error on the user input, then do this code based on the error.
     except ValueError:
-        print("You need to enter an integer. Please try again")
+        # print("You need to enter an integer. Please try again")
+        pass
     except IndexError:
-        print("Invalid index. You need to enter between 0-2 and make sure the space is not already occupied")
+        # print("Invalid index. You need to enter between 0-2 and make sure the space is not already occupied")
+        pass
 
 
 # Checks the Horizontal or Rows through the center column
