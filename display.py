@@ -21,6 +21,7 @@ x_score = 0
 o_score = 0
 
 
+
 def bg_color():
     WIN.fill(SILVER)
 
@@ -77,8 +78,8 @@ def hud():
     WIN.blit(y_text, (600, 15))
 
 
-def display_turn(player_state):
-    if player_state == 1:
+def display_turn(turn_counter):
+    if turn_counter == 1:
         pygame.draw.rect(WIN, SILVER, [350, 15, 200, 50])
         text = font.render("X's Turn", True, BLACK)
         WIN.blit(text, (350, 15))
@@ -87,3 +88,16 @@ def display_turn(player_state):
         pygame.draw.rect(WIN, SILVER, [350, 15, 200, 50])
         text = font.render("O's Turn", True, BLACK)
         WIN.blit(text, (350, 15))
+
+
+def clear_board():
+    # overwrite the board with a new background n grid
+    bg_color()
+    grid()
+    # display the hud after overwriting the board
+    hud()
+
+
+
+def display_draw():
+    pass
