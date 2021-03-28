@@ -22,7 +22,7 @@ def playerInput(turn_count, x, y):
             mat1[x, y] = 1
 
         # Immediately print the updated matrix with the player's choice
-        print("\n", mat1, "\n")
+        # print("\n", mat1, "\n")
 
     # If there is an error on the user input, then do this code based on the error.
     except ValueError:

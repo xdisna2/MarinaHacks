@@ -156,7 +156,7 @@ class App:
             # if turn_counter >= 5:
                 # Tie at the last round
             if (turn_counter == 9) and (back_end.checkWinCondition() is False):
-                print("Y'all suck, how the heck did no one win?")
+                # print("Y'all suck, how the heck did no one win?")
 
                 box1 = False
                 box2 = False
@@ -175,11 +175,11 @@ class App:
                 # Legit win
             elif back_end.checkWinCondition():
                 if turn_counter % 2 == 0:
-                    print("Player 0 wins")
+                    # print("Player 0 wins")
                     display.x_score += 1
 
                 else:
-                    print("Player 1 wins")
+                    # print("Player 1 wins")
                     display.o_score += 1
 
                 box1 = False
