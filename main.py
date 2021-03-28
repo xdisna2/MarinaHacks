@@ -155,7 +155,7 @@ def main():
 
         # if turn_counter >= 5:
             # Tie at the last round
-        if (turn_counter == 9) and (back_end.checkWinCondition() is True):
+        if (turn_counter == 9) and (back_end.checkWinCondition() is False):
             print("Y'all suck, how the heck did no one win?")
 
             box1 = False
