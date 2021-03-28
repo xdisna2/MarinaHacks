@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63429bfb-7044-417b-b31c-c0f82183a2fc" name="Default Changelist" comment="committed">
+    <list default="true" id="63429bfb-7044-417b-b31c-c0f82183a2fc" name="Default Changelist" comment="full code">
       <change beforePath="$PROJECT_DIR$/.idea/MarinaHacks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarinaHacks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_27_2021_10_38_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_27_2021_10_38_AM__Default_Changelist_.xml" afterDir="false" />
@@ -27,7 +27,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_27_2021_10_36_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_27_2021_10_36_AM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/display.py" beforeDir="false" afterPath="$PROJECT_DIR$/display.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_game_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_image_transparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/o_image_transparent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x_image_transparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/x_image_transparent.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\soria\Projects\MarinaHacks\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main_game_script (1)">
     <configuration name="back_end" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MarinaHacks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_game_script (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MarinaHacks" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +129,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_game_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_game_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MarinaHacks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\soria\Projects\MarinaHacks\main_game_script.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,15 +162,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main_game_script (1)" />
+        <item itemvalue="Python.main_game_script" />
         <item itemvalue="Python.display" />
         <item itemvalue="Python.back_end" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.back_end" />
+        <item itemvalue="Python.main_game_script" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -152,6 +182,9 @@
       <option name="presentableId" value="Default" />
       <updated>1616865349432</updated>
       <workItem from="1616865351323" duration="5657000" />
+      <workItem from="1616891910547" duration="278000" />
+      <workItem from="1616894102131" duration="45000" />
+      <workItem from="1616894166245" duration="2252000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1616867684587</created>
@@ -198,46 +231,9 @@
     <MESSAGE value="collision added" />
     <option name="LAST_COMMIT_MESSAGE" value="collision added" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1899" height="132" key="GridCell.Tab.0.bottom" timestamp="1616882923620">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616881075886" />
-    <state width="1899" height="132" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616882923620" />
-    <state width="1899" height="132" key="GridCell.Tab.0.center" timestamp="1616882923620">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616881075886" />
-    <state width="1899" height="132" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616882923620" />
-    <state width="1899" height="132" key="GridCell.Tab.0.left" timestamp="1616882923620">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616881075886" />
-    <state width="1899" height="132" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616882923620" />
-    <state width="1899" height="132" key="GridCell.Tab.0.right" timestamp="1616882923620">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616881075886" />
-    <state width="1899" height="132" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616882923620" />
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1616880991316">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616880991316" />
-    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1616880991315">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1616880991315" />
-    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1616880991315">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1616880991315" />
-    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1616880991316">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1616880991316" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1616882574442">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616882574442" />
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MarinaHacks$back_end.coverage" NAME="back_end Coverage Results" MODIFIED="1616875450763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MarinaHacks$main_game_script__1_.coverage" NAME="main_game_script (1) Coverage Results" MODIFIED="1616896346448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MarinaHacks$main.coverage" NAME="main Coverage Results" MODIFIED="1616894199885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

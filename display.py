@@ -7,8 +7,6 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 
 pygame.display.set_caption("TIC-TAC-TOE")
 
-x_image = pygame.image.load('x_image_transparent.png')
-o_image = pygame.image.load('o_image_transparent.png')
 
 # color parameters
 BLACK = (0, 0, 0)
@@ -24,14 +22,6 @@ o_score = 0
 
 def bg_color():
     WIN.fill(SILVER)
-
-
-def display_x(x, y):
-    WIN.blit(x_image, (x, y))
-
-
-def display_o(x, y):
-    WIN.blit(o_image, (x, y))
 
 
 # method that creates the grid
